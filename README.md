@@ -32,7 +32,5 @@ Config files are located in [./config](./config).
 
 ## Scripts
 
-`npm start` - Starts the vite dev server
-`npm run openfin:run` - Launch the provider application in Openfin
-
-## TODO
+- `npm start` - Starts the vite dev server
+- `npm run openfin:run` - Launch the provider application in Openfin
