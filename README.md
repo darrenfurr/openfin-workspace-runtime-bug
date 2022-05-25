@@ -1,19 +1,5 @@
 # Openfin Workspace
 
-<img src="./screenshot.PNG">
-
-The Reactive Trader Openfin Workspace Provider is a standalone application that registers a platform provider with Openfin. It is built separately to the Reactive Trader client, and deployed to the Openfin bucket in Google Cloud Storage (under the subfolder/workspace)
-
-The manifest file is available at - `http://openfin.dev|uat|prod.reactivetrader.com/workspace/config/workspace.json`
-
-Branch builds are located at -
-`http://openfin.env.reactivetrader.com/branch/branch_name/workspace/config/workspace.json`
-
-PR builds are located at -
-`http://openfin.env.reactivetrader.com/pull/pr_id/workspace/config/workspace.json`
-
-## Running Locally
-
 ## BUG
 
 When running the @openfin/workspace-platform v7.3.10 you will see the following error in the console for the Workspace Provider:
